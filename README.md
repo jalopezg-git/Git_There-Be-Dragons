@@ -1,4 +1,9 @@
 # Git - There be dragons!
-This repository contains a snapshot of the ARCOS presentation "Git - There be dragons! [from (l)user to r00t in 60 minutes]" as of January 2019.
+A Git SCM lecture that touches topics ranging from basic porcelain usage (noob) to the use of some plumbing commands (expert).
+The presentation takes 60-120 minutes, depending on the audience's previous knowledge.
+A PDF version can be downloaded [here](https://github.com/jalopezg-git/Git_There-Be-Dragons/raw/master/GitTalk.pdf).
 
-It can be downloaded as a PDF file [here](https://github.com/jalopezg-uc3m/ARCOS-Git_-_There_be_dragons/raw/master/GitTalk.pdf).
+The lecture was given on the following dates:
+- January 2019: for the [Computer Architecture, Communications and Systems (ARCOS)](https://github.com/arcosuc3m) group, Departamento de Informática, at Universidad Carlos III de Madrid
+- September 2019: for the [ROOT team](https://github.com/root-project), EP/SFT, at CERN
+- October 2019: for the [Arquitectures i Computació de Altes Prestacions group](https://www.uji.es/serveis/ocit/base/grupsinvestigacio/detall?codi=201), ICC, at Universitat Jaume I
