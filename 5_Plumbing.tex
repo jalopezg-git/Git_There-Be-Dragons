@@ -68,7 +68,7 @@
 \end{frame}
 
 \begin{frame}[fragile]{HOWTO: commit arbitrary content}
-  \vskip -1em\begin{lstlisting}[style=bash]
+  \begin{lstlisting}[style=bash]
     # Create blob object for 'README.md'; use 'git cat-file blob 1f6c266' to see blob contents
     $ git hash-object -t blob -w --path=README.md --stdin <<EOF
     > This file was created by git-hash-object.
@@ -83,11 +83,10 @@
     $ git commit-tree -p HEAD -m 'Added README.md' 0082679644a2b435b6cf09a65324292da28a41b4
     9f7f586f952c515893dd6597936f6fea64dd17ce`\pause`
 
-    # Update refs/heads/master
+    # and update 'refs/heads/master'
     $ git update-ref refs/heads/master 9f7f586f952c515893dd6597936f6fea64dd17ce`\pause`
 
-    # WTF?
-    $ git status
+    $ git status    # WTF?
     On branch master
     Changes to be committed:
       (use "git reset HEAD <file>..." to unstage)
