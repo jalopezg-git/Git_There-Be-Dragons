@@ -96,8 +96,11 @@
               \$ git instaweb --stop};
 \end{frame}
 
-\begin{frame}{Other projects}
+\begin{frame}{Related projects}
   \centering
-  \tikz[every node/.style={font=\fontsize{28}{28}\selectfont,mLightBrown83}]\path
-    node{git-annex} ++(-4em,-9em) node[opacity=.74]{git-crypt} ++(12em, 4em) node[opacity=.59]{libgit2};
+  \tikz[every node/.style={font=\fontsize{24}{24}\selectfont,mLightBrown83}]\path
+    node[opacity=.75]{\href{https://git-annex.branchable.com/}{git-annex}}
+    ++(7em,-4em) node[opacity=1]{\href{https://git-lfs.com/}{git-lfs}}
+    ++(8em,2em) node[opacity=.4]{\href{https://github.com/AGWA/git-crypt}{git-crypt}}
+    ++(-12em, -6em) node[opacity=.2]{\href{https://libgit2.org/}{libgit2}};
 \end{frame}
