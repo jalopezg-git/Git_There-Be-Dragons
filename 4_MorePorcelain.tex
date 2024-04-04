@@ -232,8 +232,13 @@
             [bob@moon \~{}]\$ git pull foo-bundle master};
 \end{frame}
 
-\begin{frame}{ReReRe}
-  ``git-rerere - Reuse recorded resolution of conflicted merges''
-  \\[1em]
-  \alert{FYI, see the \texttt{git-rerere(1)} manual page.}
+\begin{frame}[fragile]{Rerere}
+  \texttt{git-rerere} --- Reuse recorded resolution of conflicted merges, i.e. git remembers how you resolved a hunk conflict and it automatically resolves it next time.\\[1em]
+
+  \begin{lstlisting}[style=bash]
+    $ git config --global rerere.enabled true
+  \end{lstlisting}
+
+  \vfill
+  See more at \texttt{git-rerere(1)} manual page, and \href{https://git-scm.com/book/en/v2/Git-Tools-Rerere}{\underline{Git Book, Sec. 7.9 Git Tools - Rerere}}.
 \end{frame}
