@@ -32,6 +32,7 @@
   mLightBrown83/.style={mLightBrown!83!black},
   >=Latex,
   remote/.style={regular polygon,regular polygon sides=6,fill=teal},
+  hint box/.style={fill=olive!20,draw=olive!50,rounded corners,text width=\textwidth,align=center},
 }
 \definecolor{cred}{HTML}{dc322f}
 \definecolor{cgreen}{HTML}{859900}
@@ -43,6 +44,7 @@
 \def\gitRebaseWarning{\warning{USE WITH CARE. Read git-rebase implications!}}
 \def\LT{\textless}
 \def\GT{\textgreater}
+\def\hintBox#1{\tikz[remember picture,overlay]\node[hint box,anchor=south] at ([yshift=1in]current page.south) {#1};}
 
 \lstset{autogobble}
 \lstdefinestyle{bash}{
