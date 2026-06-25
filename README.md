@@ -8,3 +8,4 @@ The lecture was given on the following dates:
 - September 2019: for the [ROOT team](https://github.com/root-project), EP/SFT, at CERN
 - October 2019: for the [Arquitectures i Computació de Altes Prestacions group](https://www.uji.es/serveis/ocit/base/grupsinvestigacio/detall?codi=201), ICC, at Universitat Jaume I
 - April 2024: in the knowledge sharing session April 14th, Zimperium Inc.
+- 25th June 2026: for a group of interested people at UC3M
